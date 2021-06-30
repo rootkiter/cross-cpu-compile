@@ -1,25 +1,31 @@
-# Target CPU Compiler
+# Target CPU
 
 ```
-    cross-compiler-armv4eb
-    cross-compiler-armv4tl
-    cross-compiler-armv6l
-    cross-compiler-i586
-    cross-compiler-m68k
-    cross-compiler-mips64
-    cross-compiler-powerpc
-    cross-compiler-sh2eb
-    cross-compiler-sh4
-    cross-compiler-x86\_64
-    cross-compiler-armv4l
-    cross-compiler-armv5l
-    cross-compiler-i486
-    cross-compiler-i686
-    cross-compiler-mips
-    cross-compiler-mipsel
-    cross-compiler-powerpc-440fp
-    cross-compiler-sh2elf
-    cross-compiler-sparc
+    cross-compiler-armv4eb/bin/armv4eb-gcc
+    cross-compiler-armv4tl/bin/armv4tl-gcc
+    cross-compiler-armv4l/bin/armv4l-gcc
+    cross-compiler-armv5l/bin/armv5l-gcc
+    cross-compiler-armv6l/bin/armv6l-gcc
+
+    cross-compiler-mipsel/bin/mipsel-gcc
+    cross-compiler-mips/bin/mips-gcc
+    cross-compiler-mips64/bin/mips64-gcc
+
+    cross-compiler-m68k/bin/m68k-gcc
+
+    cross-compiler-sparc/bin/sparc-gcc
+
+    cross-compiler-powerpc/bin/powerpc-gcc
+    cross-compiler-powerpc-440fp/bin/powerpc-440fp-gcc
+
+    cross-compiler-sh4/bin/sh4-gcc
+    cross-compiler-sh2eb/bin/sh2eb-gcc
+    cross-compiler-sh2elf/bin/sh2elf-gcc
+
+    cross-compiler-i486/bin/i486-gcc
+    cross-compiler-i586/bin/i586-gcc
+    cross-compiler-i686/bin/i686-gcc
+    cross-compiler-x86_64/bin/x86_64-gcc
 ```
 
 # How To Use
